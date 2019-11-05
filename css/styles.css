@@ -43,8 +43,11 @@ section {
 .Mac {
     background-color: hsl(233, 100%, 69%);
 }
-h2 {
+h2, h3 {
     color: hsl(210, 10%, 33%);
+}
+h3 {
+    font-size: 1.3em;
 }
 .snippets {
     text-align: center;
@@ -58,4 +61,23 @@ h2 {
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+.access {
+    text-align: center;
+}
+.access > .devices > img {
+    width: 100%;
+    height: auto;
+}
+.workflow {
+    text-align: center;
+}
+.brands {
+    text-align: center;
+}
+.brands > .brand-wrapper {
+    margin-top: 80px;
+}
+.clipboard {
+    text-align: center;
 }
