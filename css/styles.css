@@ -14,6 +14,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     color: hsl(201, 11%, 66%);
+}
+main {
     padding: 5%;
 }
 section {
@@ -80,4 +82,22 @@ h3 {
 }
 .clipboard {
     text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #F5F6F8;
+    padding: 5%;
+}
+.footer-wrapper > .logo-wrapper > img {
+    width: 20%;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%) ;
+}
+.footer-wrapper > * {
+    margin-top: 30px;
+}
+.social > img {
+    padding: 20px;
 }
