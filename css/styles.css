@@ -38,12 +38,15 @@ section {
     border-radius: 50px;
     margin-top: 30px;
     cursor: pointer;
+    
 }
 .iOS {
     background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 10px 0px hsl(171, 66%, 44%);
 }
 .Mac {
     background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 5px 10px 0px hsl(233, 100%, 69%);
 }
 h2, h3 {
     color: hsl(210, 10%, 33%);
@@ -81,6 +84,12 @@ h3 {
 }
 .workflow {
     text-align: center;
+}
+.workflow > .blacklist-img-wrapper {
+    padding: 60px 0px 20px 0px;
+}
+.workflow > .text-img-wrapper, .preview-img-wrapper {
+    padding: 30px 0px;
 }
 .brands {
     text-align: center;
