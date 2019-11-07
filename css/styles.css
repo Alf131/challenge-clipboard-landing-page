@@ -89,10 +89,10 @@ h3 {
 .workflow {
     text-align: center;
 }
-.workflow > .blacklist-img-wrapper {
+.blacklist-img-wrapper {
     padding: 60px 0px 20px 0px;
 }
-.workflow > .text-img-wrapper, .preview-img-wrapper {
+.text-img-wrapper, .preview-img-wrapper {
     padding: 30px 0px;
 }
 .brands {
@@ -152,5 +152,25 @@ footer a {
     .access {
         max-width: 60%;
         margin: auto;
+    }
+    .blacklist-img-wrapper {
+        padding: 30px 0px;
+        padding-bottom: 22px;
+    }
+    .workflow-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .list-wrapper {
+        width: 25%;
+        padding: 20px;
+    }
+    .list-wrapper p {
+        height: 55px;
+    }
+    .brands {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
