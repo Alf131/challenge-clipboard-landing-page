@@ -104,11 +104,19 @@ footer a {
     color: hsl(210, 10%, 33%) ;
     font-weight: 600;
 }
+footer a:hover {
+    color: hsl(171, 66%, 44%)
+}
 .footer-wrapper > * {
     margin-top: 30px;
 }
-.social > img {
+.social  i {
     padding: 20px;
+    font-size: xx-large;
+    color: hsl(210, 10%, 33%);
+}
+.social i:hover {
+    color: hsl(171, 66%, 44%)
 }
 .attribution {
     font-size: 11px; text-align: center;
