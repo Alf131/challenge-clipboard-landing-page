@@ -1,0 +1,107 @@
+@media(min-width:900px) {
+    h2 {
+        font-size:2.0em;
+    }
+    .header {
+        max-width: 60%;
+        margin: 0 auto 100px auto;
+    }
+    .header > .logo {
+        padding-top: 0;
+    }
+    .header > h1 {
+        font-size: 2.5em ;
+    }
+    .header > p {
+        font-size: 20px;
+    }
+    .button {
+        display: inline-block;
+        width: 27%;
+        margin-right: 15px;
+    }
+    .snippets > p {
+        max-width: 60%;
+        margin: auto;
+    }
+    .snippets  > .snippets-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    .snippets  > .snippets-wrapper > .right-column {
+        padding: 90px;
+        text-align: left;
+    }
+    .snippets img {
+        margin-left: -150px;
+        width: 120%;
+    }
+    .snippets .right-column {
+        width: 30%;
+    }
+    .access {
+        max-width: 60%;
+        margin: auto;
+    }
+    .blacklist-img-wrapper {
+        padding: 30px 0px;
+        padding-bottom: 22px;
+    }
+    .workflow-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .list-wrapper {
+        width: 25%;
+        padding: 20px;
+    }
+    .list-wrapper p {
+        height: 55px;
+    }
+    .brands {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .clipboard {
+        max-width: 60%;
+        margin: auto;
+    }
+    footer {
+        padding: 1% 5%;
+    }
+    .footer-wrapper > .logo-wrapper > img {
+        width: 25%;
+    }
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+        grid-template-rows: 50px 50px ;
+        align-items: center;
+    }
+    .logo-wrapper {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .Contact {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .Press {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .social {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        justify-self: end;
+    }
+}
